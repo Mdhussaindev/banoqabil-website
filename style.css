@@ -136,6 +136,12 @@ Links
 
 }
 
+.logo img{
+    width:170px;
+    height:auto;
+    display:block;
+}
+
 
 
 .nav-links a::after{
