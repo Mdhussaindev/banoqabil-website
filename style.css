@@ -152,9 +152,6 @@ body{
         display:block;
     }
 
-    .logo img{
-        width:145px;
-    }
 
     .nav-links.active{
         display:flex;
@@ -170,4 +167,50 @@ body{
         gap:20px;
     }
 
+}
+
+/*=========================
+        Logo
+=========================*/
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+}
+
+.logo img{
+    width:48px;
+    height:48px;
+    object-fit:contain;
+}
+
+.logo-text{
+    display:flex;
+    flex-direction:column;
+    line-height:1.2;
+}
+
+.logo-text h2{
+    font-size:20px;
+    color:#222;
+    font-weight:700;
+    margin:0;
+}
+
+.logo-text span{
+    font-size:11px;
+    color:#666;
+    letter-spacing:.5px;
+}
+
+.logo-text h2{
+    font-size:22px;
+    font-weight:700;
+}
+
+.logo-text span{
+    color:#009966;
+    font-weight:500;
 }
