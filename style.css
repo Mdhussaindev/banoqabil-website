@@ -257,3 +257,55 @@ body{
         gap:20px;
     }
 }
+
+/*================================
+        HERO SECTION
+================================*/
+
+.hero{
+    width:100%;
+    margin-top:80px;
+    background:#ffffff;
+}
+
+.hero img{
+    width:100%;
+    display:block;
+    height:auto;
+}
+
+/*=========================
+    Hero Responsive
+=========================*/
+
+@media (max-width:1200px){
+
+    .hero{
+        margin-top:80px;
+    }
+
+}
+
+@media (max-width:992px){
+
+    .hero{
+        margin-top:80px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .hero{
+        margin-top:80px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .hero{
+        margin-top:80px;
+    }
+
+}
